@@ -14,10 +14,11 @@ _ **Sortero aleatorio:** Al presionar el botón de sorteo, se selecciona y muest
 <br>
 _ **Validaciones:** Se evita la inserción de nombres vacíos.
 <br>
-Instalación y uso
 
-1. Clona este repositorio en tu máquina.
-2. Abre el archivo index.html en tu navegador.
-3. Ingresa nombres en el input y presiona "Añadir" para agregarlos a la lista.
-4. Haz clic en el botón "Sortear" para asignar un amigo secreto de forma aleatoria.
+## 🔨:Instalación y uso
+
+1. Debes clonar este repositorio en tu máquina.
+2. Abre con tu navegador el archivo index.html.
+3. Ingresa los nombres de tus amigos en el input de a uno y vas presionando sucesivamente "Añadir" para agregarlos a la lista.
+4. Luego debes hacer clic en el botón "Sortear" para ver el resultado con el nombre del amigo secreto de forma aleatoria.
 
