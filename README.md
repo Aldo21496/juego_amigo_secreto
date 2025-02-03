@@ -7,8 +7,11 @@ Este proyecto consiste en un juego del amigo secreto implementado con HTML, CSS 
 ## Características
 
 _ **Ingreso de nombres:** Se puede agregar un nombre mediante un input.Si el campo esta vacío, se muestra un alerta para indicarlo.
+
 _ **Listado dinámico:** Los nombres se muestran en una lista (`<li>`) a medida que se agregan.
+
 _ **Sortero aleatorio:** Al presionar el botón de sorteo, se selecciona y muestra un nombre aleatorio.
+
 _ **Validaciones:** Se evita la inserción de nombres vacíos.
 
 Instalación y uso
