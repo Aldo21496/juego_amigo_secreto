@@ -17,6 +17,8 @@ function agregarAmigo() {
         alert("Debe llenar el campo nombre");
         return;
     }
+
+    limpiarResultado();
     amigos.push(nombre);
 
     actualizarLista();
@@ -39,5 +41,11 @@ function sortearAmigo(){
     }
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
     resultado.textContent = `El amigo secreto es: ${amigos[indiceAleatorio]}`; 
+    amigos.length = 0;
 }
 
+function limpiarResultado(){
+    if (amigos.length == 0){
+        resultado.innerHTML = "";
+    }
+}
